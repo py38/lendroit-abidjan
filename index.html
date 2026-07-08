@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>L'Endroit — Brasserie · Abidjan</title>
+<meta name="description" content="Brasserie L'Endroit, Plateau Abidjan. Cuisine française revisitée. Du lundi au vendredi.">
+<link rel="icon" href="assets/logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scroll-progress"></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a href="#hero" class="nav__logo"><img src="assets/logo.jpeg" alt="L'Endroit"></a>
+  <nav class="nav__links">
+    <a href="#about">La Maison</a>
+    <a href="#menu">La Carte</a>
+    <a href="#gallery">Ambiance</a>
+    <a href="#reserve">Nous trouver</a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="hero">
+  <div class="hero__bg" data-parallax="0.4"></div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <p class="hero__eyebrow reveal">Brasserie · Plateau, Abidjan</p>
+    <h1 class="hero__title reveal">L'Endroit</h1>
+    <p class="hero__subtitle reveal">La cuisine française revisitée,<br>signée par la main d'une femme chef.</p>
+    <a href="#reserve" class="btn reveal">Découvrir la maison</a>
+  </div>
+  <div class="hero__scroll">
+    <span>Défilez</span>
+    <div class="hero__scroll-line"></div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+  <div class="about__inner">
+    <div class="about__image reveal-left">
+      <div class="about__image-frame" data-parallax="0.15"></div>
+    </div>
+    <div class="about__text">
+      <p class="section__eyebrow reveal">La Maison</p>
+      <h2 class="section__title reveal">Un endroit,<br>tout simplement</h2>
+      <p class="reveal">Au cœur du Plateau, L'Endroit est cette adresse que l'on garde pour soi puis que l'on finit par partager. Une brasserie où la tradition française se laisse revisiter, portée par une cuisine sincère et le tour de main d'une femme chef.</p>
+      <p class="reveal">Des produits choisis, une miche de pain Poilâne, une carte des vins sélectionnée avec soin, et cette atmosphère feutrée où le temps ralentit. Ici, on vient pour l'assiette — on revient pour l'ambiance.</p>
+      <div class="about__stats reveal">
+        <div class="stat"><span class="stat__num" data-count="123">0</span><span class="stat__label">Créations partagées</span></div>
+        <div class="stat"><span class="stat__num" data-count="100" data-suffix="%">0</span><span class="stat__label">Fait maison</span></div>
+        <div class="stat"><span class="stat__num" data-count="1">0</span><span class="stat__label">Femme chef</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Quote band (bread) -->
+<section class="quote quote--pain">
+  <div class="quote__bg" data-parallax="0.3"></div>
+  <div class="quote__overlay"></div>
+  <blockquote class="quote__text reveal">
+    « Laissez-vous enchanter par notre miche de pain Poilâne, un trésor de la table. »
+    <cite>— La Maison</cite>
+  </blockquote>
+</section>
+
+<!-- Menu -->
+<section class="menu" id="menu">
+  <div class="menu__header">
+    <p class="section__eyebrow reveal">La Carte</p>
+    <h2 class="section__title reveal">Une cuisine française, revisitée</h2>
+    <p class="menu__note reveal">Choisissez une catégorie pour découvrir nos suggestions. <em>(Carte de démonstration — les plats évoluent au fil des saisons.)</em></p>
+  </div>
+
+  <div class="menu__tabs reveal">
+    <button class="menu__tab is-active" data-tab="entrees">Entrées</button>
+    <button class="menu__tab" data-tab="poissons">Poissons</button>
+    <button class="menu__tab" data-tab="viandes">Viandes</button>
+    <button class="menu__tab" data-tab="vegetal">Végétal</button>
+    <button class="menu__tab" data-tab="desserts">Desserts</button>
+    <button class="menu__tab" data-tab="vins">Vins & Cocktails</button>
+  </div>
+
+  <div class="menu__panels reveal">
+    <!-- Entrées -->
+    <div class="menu__panel is-active" data-panel="entrees">
+      <div class="dish"><div class="dish__head"><span class="dish__name">Œuf parfait 63°</span><span class="dish__dots"></span><span class="dish__price">5 500</span></div><p class="dish__desc">Émulsion de champignons, éclats de pain Poilâne, huile de truffe</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Foie gras mi-cuit</span><span class="dish__dots"></span><span class="dish__price">9 000</span></div><p class="dish__desc">Chutney de mangue-gingembre, brioche toastée maison</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Tartare de thon rouge</span><span class="dish__dots"></span><span class="dish__price">7 500</span></div><p class="dish__desc">Avocat, sésame, vinaigrette au soja-citron vert</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Velouté du moment</span><span class="dish__dots"></span><span class="dish__price">5 000</span></div><p class="dish__desc">Selon le marché, crème fouettée et croûtons dorés</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Burrata & tomates anciennes</span><span class="dish__dots"></span><span class="dish__price">6 500</span></div><p class="dish__desc">Basilic, réduction balsamique, fleur de sel</p></div>
+    </div>
+    <!-- Poissons -->
+    <div class="menu__panel" data-panel="poissons">
+      <div class="dish"><div class="dish__head"><span class="dish__name">Bar de ligne rôti</span><span class="dish__dots"></span><span class="dish__price">14 500</span></div><p class="dish__desc">Fenouil confit, beurre blanc aux agrumes</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Gambas flambées</span><span class="dish__dots"></span><span class="dish__price">15 000</span></div><p class="dish__desc">Bisque maison, riz nacré, touche de piment doux</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Dos de capitaine grillé</span><span class="dish__dots"></span><span class="dish__price">13 000</span></div><p class="dish__desc">Attiéké revisité, sauce vierge aux herbes</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Saint-Jacques snackées</span><span class="dish__dots"></span><span class="dish__price">16 500</span></div><p class="dish__desc">Purée de patate douce, émulsion au champagne</p></div>
+    </div>
+    <!-- Viandes -->
+    <div class="menu__panel" data-panel="viandes">
+      <div class="dish"><div class="dish__head"><span class="dish__name">Filet de bœuf grillé</span><span class="dish__dots"></span><span class="dish__price">18 000</span></div><p class="dish__desc">Viande locale, cuisson à la plancha, jus corsé & gratin dauphinois</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Magret de canard</span><span class="dish__dots"></span><span class="dish__price">15 500</span></div><p class="dish__desc">Miel-épices, purée maison, légumes glacés</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Suprême de volaille fermière</span><span class="dish__dots"></span><span class="dish__price">12 500</span></div><p class="dish__desc">Crème de morilles, pommes grenailles</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Le plat de la chef</span><span class="dish__dots"></span><span class="dish__price">à l'ardoise</span></div><p class="dish__desc">La suggestion du jour, selon l'inspiration</p></div>
+    </div>
+    <!-- Végétal -->
+    <div class="menu__panel" data-panel="vegetal">
+      <div class="dish"><div class="dish__head"><span class="dish__name">Risotto aux truffes</span><span class="dish__dots"></span><span class="dish__price">11 000</span></div><p class="dish__desc">Parmesan affiné, huile de truffe noire</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Légumes du potager rôtis</span><span class="dish__dots"></span><span class="dish__price">9 000</span></div><p class="dish__desc">Houmous maison, graines torréfiées, herbes fraîches</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Gnocchis à la crème</span><span class="dish__dots"></span><span class="dish__price">9 500</span></div><p class="dish__desc">Épinards, parmesan, noisettes concassées</p></div>
+    </div>
+    <!-- Desserts -->
+    <div class="menu__panel" data-panel="desserts">
+      <div class="dish"><div class="dish__head"><span class="dish__name">Soufflé au chocolat</span><span class="dish__dots"></span><span class="dish__price">5 500</span></div><p class="dish__desc">Cœur coulant, glace vanille bourbon</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Tarte fine aux pommes</span><span class="dish__dots"></span><span class="dish__price">4 500</span></div><p class="dish__desc">Caramel au beurre salé, crème fraîche</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Pavlova aux fruits exotiques</span><span class="dish__dots"></span><span class="dish__price">5 000</span></div><p class="dish__desc">Mangue, passion, chantilly légère</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Café gourmand</span><span class="dish__dots"></span><span class="dish__price">6 000</span></div><p class="dish__desc">Assortiment de mignardises maison</p></div>
+    </div>
+    <!-- Vins & Cocktails -->
+    <div class="menu__panel" data-panel="vins">
+      <div class="dish"><div class="dish__head"><span class="dish__name">Vin au verre</span><span class="dish__dots"></span><span class="dish__price">4 000</span></div><p class="dish__desc">Rouge, blanc ou rosé — sélection de la maison</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Bouteille — Bordeaux</span><span class="dish__dots"></span><span class="dish__price">28 000</span></div><p class="dish__desc">Cave sélectionnée, tradition française</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Whisky au verre</span><span class="dish__dots"></span><span class="dish__price">6 500</span></div><p class="dish__desc">Belle sélection de single malts</p></div>
+      <div class="dish"><div class="dish__head"><span class="dish__name">Cocktail signature</span><span class="dish__dots"></span><span class="dish__price">7 000</span></div><p class="dish__desc">La création du bar, twist local</p></div>
+    </div>
+  </div>
+  <p class="menu__prices reveal">Prix indicatifs en FCFA · service compris</p>
+</section>
+
+<!-- Signature band (beef) -->
+<section class="quote quote--boeuf">
+  <div class="quote__bg" data-parallax="0.3"></div>
+  <div class="quote__overlay"></div>
+  <blockquote class="quote__text reveal">
+    « Notre filet de bœuf, tendre à souhait, saisi à la plancha. »
+    <cite>— Signature de la maison</cite>
+  </blockquote>
+</section>
+
+<!-- Gallery -->
+<section class="gallery" id="gallery">
+  <div class="menu__header">
+    <p class="section__eyebrow reveal">Ambiance</p>
+    <h2 class="section__title reveal">La musique sonne plus fort le vendredi</h2>
+  </div>
+  <div class="gallery__grid">
+    <div class="gallery__item gallery__item--tall reveal"><div class="gallery__img g-vin" data-parallax="0.12"></div></div>
+    <div class="gallery__item reveal"><div class="gallery__img g-musique" data-parallax="0.12"></div></div>
+    <div class="gallery__item reveal"><div class="gallery__img g-whisky" data-parallax="0.12"></div></div>
+    <div class="gallery__item gallery__item--wide reveal"><div class="gallery__img g-interieur" data-parallax="0.12"></div></div>
+    <div class="gallery__item reveal"><div class="gallery__img g-pain" data-parallax="0.12"></div></div>
+  </div>
+</section>
+
+<!-- Reserve / infos -->
+<section class="reserve" id="reserve">
+  <div class="reserve__bg" data-parallax="0.25"></div>
+  <div class="reserve__overlay"></div>
+  <div class="reserve__content reveal">
+    <p class="section__eyebrow">Nous trouver</p>
+    <h2 class="section__title">Votre table vous attend</h2>
+    <p class="reserve__text">Pour réserver ou privatiser, écrivez-nous ou passez nous voir. On vous répond avec plaisir.</p>
+    <form class="reserve__form" id="reserveForm">
+      <div class="field"><input type="text" id="r-nom" required placeholder=" "><label>Nom</label></div>
+      <div class="field"><input type="tel" id="r-tel" required placeholder=" "><label>Téléphone</label></div>
+      <div class="field"><input type="date" id="r-date" required></div>
+      <div class="field"><input type="time" id="r-heure" required></div>
+      <div class="field"><input type="number" id="r-couverts" min="1" max="20" required placeholder=" "><label>Convives</label></div>
+      <button class="btn btn--full" type="submit">Réserver via WhatsApp</button>
+    </form>
+    <div class="reserve__info">
+      <div><strong>Adresse</strong><span>Avenue Delafosse, Plateau<br>Abidjan, Côte d'Ivoire</span></div>
+      <div><strong>Horaires</strong><span>Lundi — Vendredi<br>8h30 — 16h30</span></div>
+      <div><strong>En ligne</strong><span><a href="https://www.lendroitabidjan.com" target="_blank" rel="noopener">lendroitabidjan.com</a><br><a href="https://instagram.com/lendroit.abidjan" target="_blank" rel="noopener">@lendroit.abidjan</a></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <img class="footer__logo" src="assets/logo.jpeg" alt="L'Endroit">
+  <p>Brasserie · Cuisine française revisitée · Plateau, Abidjan</p>
+  <div class="footer__links">
+    <a href="#about">La Maison</a><a href="#menu">La Carte</a><a href="#gallery">Ambiance</a><a href="#reserve">Nous trouver</a>
+  </div>
+  <p class="footer__copy">© 2026 Brasserie L'Endroit — Abidjan. Tous droits réservés.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
