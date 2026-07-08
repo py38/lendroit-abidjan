@@ -76,7 +76,7 @@ tabs.forEach(tab => {
 // ===== Reservation → WhatsApp =====
 // ⚠️ Remplace ce numéro par le vrai numéro WhatsApp du restaurant
 // Format international sans "+" ni espaces. Ex. Côte d'Ivoire : 225 07 XX XX XX XX
-const WHATSAPP_NUMBER = '2250700000000';
+const WHATSAPP_NUMBER = '2250749501090';
 
 document.getElementById('reserveForm')?.addEventListener('submit', function(e){
   e.preventDefault();
