@@ -196,6 +196,10 @@ a{color:inherit;text-decoration:none}
   transition:all .3s var(--ease);
 }
 .field input:focus+label,.field input:not(:placeholder-shown)+label{top:-12px;font-size:.7rem;letter-spacing:2px;text-transform:uppercase;color:var(--or)}
+/* Date & Heure : libellé toujours visible + texte clair sur le sélecteur natif */
+.field input[type=date],.field input[type=time]{color-scheme:dark;color:var(--creme)}
+.field--static label{top:-12px;font-size:.7rem;letter-spacing:2px;text-transform:uppercase;color:var(--or)}
+.field--static input{padding-top:20px}
 .reserve__form .btn--full{grid-column:1/-1}
 .reserve__info{display:flex;justify-content:center;gap:40px;flex-wrap:wrap;text-align:center}
 .reserve__info strong{display:block;color:var(--or);font-size:.72rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:6px;font-weight:500}
